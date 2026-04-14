@@ -1,0 +1,113 @@
+  /* univarsal selector*/
+  
+* {
+  margin: 0;
+  padding: 0;
+}
+/* body style */
+body {
+  background: linear-gradient(#1800FC,#00E5FC);
+}
+/* upar style */
+
+.upar {
+  height: 200px;
+  background: linear-gradient(#00FC33,#87FC00);
+  position: relative;
+  bottom: 10px;
+}
+
+/* search ke undar ka input style */
+
+.search input {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: relative;
+  left: 72%;
+  top: 20px;
+}
+/* search ke undar ke input ke placeholder ka style */
+
+.search input::placeholder {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* name style */
+
+.name h1 {
+  font-size: 40px;
+  position: relative;
+  bottom: 46px;
+  left: 5px;
+}
+/* screen style */
+.screen {
+  width: 100%;
+  height: 400px;
+}
+/* box style */
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin: auto;
+  position: relative;
+}
+/* controler */
+
+.control {
+  margin-left: 10px;
+  margin-top: 80px;
+  display: inline;
+}
+
+/* W styel */
+.W {
+  width: 50px;
+  height: 40px;
+  border: 1px solid black;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+/* A styel */
+.A {
+  width: 50px;
+  height: 40px;
+  border: 1px solid black;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+/* D styel */
+.D {
+  width: 50px;
+  height: 40px;
+  border: 1px solid black;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+/* S styel */
+.S {
+  width: 50px;
+  height: 40px;
+  border: 1px solid black;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
